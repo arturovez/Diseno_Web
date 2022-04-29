@@ -1,2 +1,5 @@
-p {
+footer ul{
+    background: gray;
+    width: 100%;
+    display: flex;
 }
