@@ -27,12 +27,18 @@ header {
 main {    
 
 }
+
+#welcomeImg {
+    width: 80%;
+}
+
 main section {
     display: flex;
 }
 
 
 footer {
+    display: flex;
     margin-top: 1%;
     margin-bottom: 1%;
     border-radius: 50px;
