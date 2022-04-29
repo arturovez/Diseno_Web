@@ -1,5 +1,71 @@
-footer ul{
-    background: gray;
-    width: 100%;
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgb(48, 47, 47);
+}
+
+header {
     display: flex;
+    background: gray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 50px;
+
+}
+
+#logoHeader {
+    width: 200px;
+}
+
+#navList {
+    display: flex;
+}
+
+main {    
+
+}
+main section {
+    display: flex;
+}
+
+
+footer {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 50px;
+    background: gray;
+
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul img {
+    width: 40px;
+}
+
+section {
+    background: gray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 50px;
+}
+
+aside {
+    background: gray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 50px;
+}
+
+#galGrande img {
+    width: 45%;
+}
+
+#galChica img {
+    width: 20%;
 }
