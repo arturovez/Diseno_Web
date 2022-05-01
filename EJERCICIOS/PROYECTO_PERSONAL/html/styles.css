@@ -24,12 +24,11 @@ header {
     display: flex;
 }
 
-main {    
 
-}
 
 #welcomeImg {
     margin: 10%;
+    width: 80%;
 }
 
 main section {
@@ -56,16 +55,16 @@ footer ul img {
 
 section {
     background: gray;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     border-radius: 50px;
 }
 
 aside {
     background: gray;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border-radius: 50px;
+    margin: 1%;
+    padding: 5%;
+    border-radius: 5%;
 }
 
 #galGrande img {
@@ -76,6 +75,11 @@ aside {
     width: 20%;
 }
 
-#listaVideos {
+#listaVideosPrin {
     display: flex;
+}
+
+#listaVideosPrin video {
+    width: 320px;
+    height: 120px;
 }
