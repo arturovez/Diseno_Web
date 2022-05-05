@@ -161,11 +161,92 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
           INGRESA AQUI EL CÓDIGO HTML
           
-          
+         <!DOCTYPE html>
+          <html>
+          <head>
+          <link rel="stylesheet" href="style.css">
+          </head>
+          <body>
+          <header>
+          <img src="img/logo.svg" alt="Gobierno de la Ciudad de Mexico">
+          <hr>
+          <nav>
+          <a href="residentes.html">Residentes</a>
+          <a href="negocios.html">Negocios</a>
+          <a href="visitantes.html">Visitantes</a>
+          <a href="gobierno.html">Gobierno</a>
+          </nav>
+          </header>
+          <main>
+          <div id="textDiv">
+          <p><span>></span>aprende a programar en las <span> escuelas de código </span> de la cdmx</p>
+          </div>
+          </main>
+          <footer>
+          <h3>Quién se puede inscribir?</h3>
+          <p>Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana</p>
+          <p id="letraPeque">*Menores de edad deberán entrar a las instalaciones acompañados de un adulto.</p>
+          </footer>
+          </body>
+          </html>
           
           
           INGRESA AQUI EL CSS
           
-          
+          *{
+          font-family: sans-serif;
+          }
+
+
+          nav {
+          text-align: right;
+          color: red;
+          }
+
+          main {
+          background: url(img/hero.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 60vh;
+          align-items: bottom;
+          display: flex;
+          align-items:flex-end;
+          }
+
+          #textDiv {
+          width: 50%;
+          height: 40 vh;
+          font-size: 50px;
+          text-align: right;
+          text-transform: uppercase;
+          color: white;
+          }
+
+          span {
+          font-weight: bold;
+          }
+
+          footer {
+          text-align: center;}
+
+          footer h3 {
+          color: gold;
+          }
+
+          footer p {
+          font-weight: bold;
+          font-size: larger;
+          }
+
+          #letraPeque {
+
+          font-weight: normal;
+          font-style: italic;
+
+          }
+
           
  Ingresa el link a tu página del proyecto final
+ 
+https://arturovez.github.io/dw_proyectofinal/
